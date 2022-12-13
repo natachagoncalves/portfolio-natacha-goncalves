@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"> <!--user-scalable=no para n deixar a pessoar dar zoom-->
+    <title>Natacha Gonçalves</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/Css/style.css">
+</head>
+<body>
+    <header id="header">
+        <div id="logo">Natacha Gonçalves</div>
+        <nav id="nav">
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#inicio" class="acti">Início</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="svgbackground">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <section id="inicio" class="container">
+            <div class="content">
+                <div class="leftside">
+                    <h1>Olá, sou Natacha</h1>
+                    <h2>Desenvolvedora <br> Front-End</h2>
+                    <a href="#contato"><button>Contato</button></a>
+                </div>
+                <div class="rightside">
+                    <picture>
+                        <source media="(max-width: 444px)" srcset="media/foto-inicio-200.png">
+                        <source media="(max-width: 778px)" srcset="media/foto-inicio-300.png">
+                        <source media="(max-width: 862px)" srcset="media/foto-inicio-400.png">
+                        <img src="media/foto-inicio-400.png" alt="foto-pessoal">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-about">
+            <div class="content-about">
+                <div class="text-about">
+                    <h3>sobre mim</h3>
+                    <p> 
+                        O mundo da programação chegou até mim em Março de 2022, quando um amigo programador me apresentou o front-end. Me interessei e comecei estudar HTML, CSS e JavaScript pelos cursos do Gustavo Guanabara, depois migrei para o Bonieky Lacerda e agora estou na Alura, onde estou me aprofundando mais em JavaScript.
+                        Já entendi que os estudos nunca param e esse fato não me incomoda, por isso meus próximos passos são frameworks e prototipação. Já tenho uma base no Photoshop  e tenho interesse em UX/UI.
+                        Os projetos que já realizei até o momento foram desafios desses cursos que fiz e esse próprio portfólio.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-skills">
+            <div class="s-s">
+                <div class="title-desc">
+                    <div class="title"><h3>Habilidades</h3></div>
+                    <div class="desc"><h4>O que aprendi e estudo até o momento</h4></div>
+                </div>
+                <div class="skills">
+                    <div class="html-css-js">
+                        <div class="html-css-js-bg">
+                            <div class="image" id="image"><img src="assets/Imagens/html1.png" alt="imagem html"></div>
+                            <div class="title2"><h2>HTML</h2></div>
+                        </div>
+                    </div>
+                    <div class="html-css-js">
+                        <div class="html-css-js-bg2">
+                            <div class="image"><img src="assets/Imagens/css-3.png" alt="imagem css"></div>
+                            <div class="title2"><h2>CSS</h2></div>
+                        </div>
+                    </div>
+                    <div class="html-css-js">
+                        <div class="html-css-js-bg">
+                            <div class="image"><img src="assets/Imagens/js.png" alt="imagem JavaScript"></div>
+                            <div class="title2"><h2>JS</h2></div>
+                        </div>
+                    </div>
+                    <div class="html-css-js">
+                        <div class="html-css-js-bg2">
+                            <div class="image"><img src="assets/Imagens/git.png" alt="imagem git"></div>
+                            <div class="title2"><h2>GIT</h2></div>
+                        </div>
+                    </div>
+                    <div class="html-css-js">
+                        <div class="html-css-js-bg">
+                            <div class="image"><img src="assets/Imagens/github.png" alt="imagem github"></div>
+                            <div class="title2"><h2>GITHUB</h2></div>
+                        </div>
+                    </div>
+                    <div class="html-css-js">
+                        <div class="html-css-js-bg2">
+                            <div class="image"><img src="assets/Imagens/vsc.png" alt="imagem visual studio code"></div>
+                            <div class="title2"><h2>VSC</h2></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-projects">
+            <div class="title-desc">
+                <div class="titlepro"><h3>Projetos</h3></div>
+                <div class="descpro"><h4>Mais projetos em breve</h4></div>
+            </div>
+            <div class="content-pro">
+                <div class="content-projects">
+                    <div class="content-projects--photos">
+                        <div class="content-projects--photo">
+                            <a href="https://womans-clinic-project.netlify.app/" target="_blank">
+                                <div class="content-projects--photoarea">
+                                    <div class="content-projects--photoinfo">
+                                        <h5>Woman's Clinic</h5>
+                                        <p>Projeto Medicenter - recriei como desafio no curso do Bonieky</p>
+                                    </div>
+                                    <img src="media/projetowomansclinic.png" alt="imagem projeto Woman's Clinic">
+                                </div>
+                            </a>
+                            <a href="https://github.com/natachagoncalves/woman-s-clinic-projeto-html-css.git" target="_blank">
+                                <div class="code">acessar repositório</div>
+                            </a>
+                        </div> 
+                        <div class="content-projects--photo">
+                            <a href="https://projetoawax-html-css.netlify.app/" target="_blank">
+                                <div class="content-projects--photoarea">
+                                    <div class="content-projects--photoinfo">
+                                        <h5>Awax</h5>
+                                        <p>Projeto Awax - recriei como desafio no curso do Bonieky</p>
+                                    </div>
+                                    <img src="media/projetoaxawbonyeki.png" alt="imagem projeto Awaw">
+                                </div>
+                            </a>
+                            <a href="https://github.com/natachagoncalves/projeto-awax-html-css.git" target="_blank">
+                                <div class="code">acessar repositório</div>
+                            </a>
+                        </div> 
+                        <div class="content-projects--photo">
+                            <a href="https://alura-midi-projeto-js.netlify.app/" target="_blank">
+                                <div class="content-projects--photoarea">
+                                    <div class="content-projects--photoinfo">
+                                        <h5>Alura-Midi</h5>
+                                        <p>JavaScript para Web - projeto que recriei na Alura</p>
+                                    </div>
+                                    <img src="Media/alura-midi-js-capa.png" alt="imagem projeto Alura-Midi">
+                                </div>
+                            </a>
+                            <a href="https://github.com/natachagoncalves/alura-midi-js.git" target="_blank">
+                                <div class="code">acessar repositório</div>
+                            </a>
+                        </div> 
+                        <div class="content-projects--photo">
+                            <a href="https://vamos-contar-js.netlify.app/" target="_blank">
+                                <div class="content-projects--photoarea">
+                                    <div class="content-projects--photoinfo">
+                                        <h5>VAMOS CONTAR</h5>
+                                        <p>Iniciando no JavaScript - desafio Guanabara</p>
+                                    </div>
+                                    <img src="media/projetovamoscontarjs.png" alt="imagem projeto Vamos-Contar">
+                                </div>
+                            </a>
+                            <a href="https://github.com/natachagoncalves/vamos-contar-js.git" target="_blank">
+                                <div class="code">acessar repositório</div>
+                            </a>
+                        </div> 
+                    </div>        
+               </div>
+            </div>
+        </section>
+        
+        <div class="svgbackground4">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </main>
+
+    <footer id="contato">
+        <div class="footer-area">
+            <div class="footer-item--area1">
+                <div>entre em contato</div>
+            </div>
+            <div class="footer-item--area2">
+                <p>natachagoncalvesjobs@gmail.com</p>
+            </div>
+            <div class="footer-item-area3">
+                <a href="https://api.whatsapp.com/send/?phone=5519997897705&text&type=phone_number&app_absent=0" target="_blank">
+                    <div class="icon-desc">
+                        <div class="icon">
+                            <img src="assets/Imagens/whatsapp.png" alt="icon-whats">
+                        </div>
+                        <div class="i-desc">
+                            <div><strong>whatsapp</strong> <br> (19) 99789-7705</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/natachagoncalves" target="_blank">
+                    <div class="icon-desc">
+                        <div class="icon">
+                            <img src="assets/Imagens/github.png" alt="icon-github">
+                        </div>
+                        <div class="i-desc">
+                            <div><strong>GitHub</strong> <br>natachagoncalves</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/natacha-gonc/" target="_blank">
+                    <div class="icon-desc">
+                        <div class="icon">
+                            <img src="assets/Imagens/linkedin.png" alt="icon-linkedin">
+                        </div>
+                        <div class="i-desc">
+                            <div><strong>Linkedin</strong> <br>natachagonçalves</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
